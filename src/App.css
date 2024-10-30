@@ -1,0 +1,113 @@
+/* src/App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 350px;
+  background: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  background: #1c1c1c;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: right;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #444;
+  box-sizing: border-box;
+}
+
+.expression {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.result {
+  font-size: 2rem;
+  margin-top: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Consistent 5 columns */
+  grid-template-rows: repeat(5, 1fr); /* Consistent 5 rows */
+  gap: 0; /* Remove gap to ensure uniformity */
+  box-sizing: border-box; /* Ensures padding/margins don't alter grid sizing */
+}
+
+.button {
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+  background-color: #444;
+  border: none;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure buttons take full row height */
+  box-sizing: border-box; /* Consistent sizing */
+  width: 100%; /* Ensures each button spans the full grid cell width */
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.button:active {
+  background-color: #666;
+}
+
+/* Special button styles */
+.button:nth-child(5n + 5) {
+  background-color: #ff5722;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .calculator {
+    max-width: 320px;
+  }
+
+  .display {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .button {
+    padding: 1.2rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .calculator {
+    max-width: 280px;
+  }
+
+  .display {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .button {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}
