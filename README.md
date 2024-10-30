@@ -54,6 +54,9 @@ React: A JavaScript library for building user interfaces.
 CSS: For styling the application.
 JavaScript: For implementing the calculator's logic.
 
+📱 Demo
+Check out the live demo: [Live Demo Link](https://deepakpatil26.github.io/react_calculator)
+
 🤝 Contributing
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
