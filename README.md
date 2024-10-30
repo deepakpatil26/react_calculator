@@ -23,12 +23,12 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/deepakpatil26/react_advanced_calculator.git
+git clone https://github.com/deepakpatil26/react_calculator.git
 Navigate to the project directory:
 
 bash
 Copy code
-cd react_advanced_calculator
+cd react_calculator
 Install the dependencies:
 
 bash
