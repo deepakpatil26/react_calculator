@@ -2,6 +2,9 @@
 
 Welcome to the **Advanced Calculator**! This powerful and intuitive calculator, built with React, is designed to cater to all your mathematical needs—from basic operations to advanced functions—in a seamless, user-friendly interface.
 
+📱 Demo
+Check out the live demo: [Live Demo Link](https://deepakpatil26.github.io/react_calculator)
+
 ![Calculator Screenshot](src/assets/sample.png) <!-- Replace with an actual screenshot -->
 
 ## ✨ Features
@@ -66,9 +69,6 @@ Your calculator will be running on http://localhost:3000.
 - React: A JavaScript library for building user interfaces.
 - CSS: For styling the application.
 - JavaScript: For implementing the calculator's logic.
-
-📱 Demo
-Check out the live demo: [Live Demo Link](https://deepakpatil26.github.io/react_calculator)
 
 🤝 Contributing
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
